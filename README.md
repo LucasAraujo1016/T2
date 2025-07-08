@@ -38,26 +38,48 @@ O **Sistema WB** foi projetado para atender todas as franquias do Grupo World Be
 
 ## Como Executar o Projeto
 
-1. **Pré-requisitos:**  
-   - Node.js (versão 14 ou superior)
-   - npm ou yarn
+### 1. Pré-requisitos
 
-2. **Instalação:**
-   ```bash
-   npm install
-   # ou
-   yarn install
-   ```
+Certifique-se de ter instalado em sua máquina:
 
-3. **Execução:**
-   ```bash
-   npm start
-   # ou
-   yarn start
-   ```
+- **Node.js**: versão **16.20.2** ou superior ([download aqui](https://nodejs.org/))
+- **npm** (gerenciador de pacotes que já vem com o Node.js)
 
-4. **Acesso:**  
-   Abra o navegador e acesse [http://localhost:3000](http://localhost:3000)
+### 2. Instale as dependências do projeto
+
+No terminal, dentro da pasta do projeto, execute:
+
+```bash
+npm install
+
+```
+
+### 3. Execute o projeto em modo de desenvolvimento
+
+```bash
+npm start
+
+```
+
+O sistema será iniciado em modo de desenvolvimento. Aguarde até aparecer a mensagem informando o endereço local.
+
+### 4. Acesse no navegador
+
+Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
+
+---
+
+### Versões das principais bibliotecas utilizadas
+
+- **React**: ^18.0.0
+- **TypeScript**: ^4.6.3
+- **Tailwind CSS**: ^3.4.17
+- **@heroicons/react**: ^2.2.0
+- **react-scripts**: ^5.0.1
+- **autoprefixer**: ^10.4.21
+- **postcss**: ^8.5.6
+
+> As versões completas das dependências estão no arquivo [`package.json`](package.json).
 
 ---
 
