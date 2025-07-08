@@ -42,8 +42,8 @@ O **Sistema WB** foi projetado para atender todas as franquias do Grupo World Be
 
 Certifique-se de ter instalado em sua máquina:
 
-- **Node.js**: versão **16.20.2** ou superior ([download aqui](https://nodejs.org/))
-- **npm** (gerenciador de pacotes que já vem com o Node.js)
+- **Node.js**: versão **16.20.2** ([download aqui](https://nodejs.org/))
+- **npm**: versão **9.6.7** (já vem com o Node.js 16.20.2)
 
 ### 2. Instale as dependências do projeto
 
@@ -51,14 +51,12 @@ No terminal, dentro da pasta do projeto, execute:
 
 ```bash
 npm install
-
 ```
 
 ### 3. Execute o projeto em modo de desenvolvimento
 
 ```bash
 npm start
-
 ```
 
 O sistema será iniciado em modo de desenvolvimento. Aguarde até aparecer a mensagem informando o endereço local.
@@ -69,15 +67,15 @@ Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-### Versões das principais bibliotecas utilizadas
+### Versões exatas das principais bibliotecas utilizadas
 
-- **React**: ^18.0.0
-- **TypeScript**: ^4.6.3
-- **Tailwind CSS**: ^3.4.17
-- **@heroicons/react**: ^2.2.0
-- **react-scripts**: ^5.0.1
-- **autoprefixer**: ^10.4.21
-- **postcss**: ^8.5.6
+- **React**: 18.0.0
+- **TypeScript**: 4.6.3
+- **Tailwind CSS**: 3.4.17
+- **@heroicons/react**: 2.2.0
+- **react-scripts**: 5.0.1
+- **autoprefixer**: 10.4.21
+- **postcss**: 8.5.6
 
 > As versões completas das dependências estão no arquivo [`package.json`](package.json).
 
